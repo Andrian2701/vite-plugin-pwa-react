@@ -15,6 +15,7 @@ function App() {
       </div>
       <h1>My PWA App</h1>
       <p>vite-plugin-pwa</p>
+      <p>some changes</p>
     </>
   )
 }
