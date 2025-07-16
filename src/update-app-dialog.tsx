@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { registerSW } from "virtual:pwa-register"
 
+import './index.css'
+
 export const UpdateAppDialog = () => {
     const [isOpen, setIsOpen] = useState(false)
 
