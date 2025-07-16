@@ -13,7 +13,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>My PWA App</h1>
+      <h1>My PWA App.</h1>
       <p>vite-plugin-pwa</p>
     </>
   )

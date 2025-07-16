@@ -20,7 +20,7 @@ export const UpdateAppDialog = () => {
         <div className="dialog">
             <p className="dialog__title">New version is available</p>
             <div className="dialog__controls">
-                <button onClick={() => updateServiceWorker(false)}>Cancel</button>
+                <button onClick={() => setIsOpen(false)}>Cancel</button>
                 <button onClick={() => updateServiceWorker(true)}>Update</button>
             </div>
         </div>
